@@ -1,0 +1,60 @@
+
+/*
+body {
+    background-image: url("../background/battleshipbk.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+*/
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    vertical-align:top;
+    margin-right:-4px;
+}
+
+.white-background {
+    background-color:  white;
+    border-radius: 10px;
+}
+
+#home-title, #pc-title {
+	border-bottom: 5px solid blue;
+}
+
+#home, #pc {
+	width: 550px;
+	border-radius: 5px;
+    border: 2px solid #73AD21;
+    margin: 5px;
+}
+
+.cell {
+	width: 80px;
+	height: 80px;
+	margin: 2px;
+	float: left;
+	border-radius: 5px;
+    border: 2px solid black;
+}
+
+.cell img {
+    height: 100%;
+    width: auto;
+}
+
+#restart-game-button {
+    display : block;
+    float: none;
+}
+
+.highlight_text {
+    color: greenyellow;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+}
